@@ -1,3 +1,5 @@
 Projects-Samples
 ================
-I am 24 year old Help Desk Technician
+I am Help Desk Technician
+I am getting my BS in Computer Infomation Systems 
+My Degree Constration Is Web Devlopment and Administration 
