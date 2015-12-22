@@ -23,6 +23,7 @@ $current_count = $count;
 echo $current_count;
 echo "<br>";
 
+
  //test.php
  echo "<br>";
 $team = array('Bill', 'Mary', 'Mike', 'Chris', 'Anne');
@@ -36,6 +37,26 @@ $oxo = array(array('x', ' ', 'o'),
 			 array('o', 'o', 'x'),
 			 array('x', 'o', ' '));
 echo $oxo[1][2];
+echo "<br>";
+
+//test.php
+echo "<br>";
+echo 6 + 2;
+echo "<br>";
+
+//test.php
+echo "<br>";
+echo $count += 1;
+echo "<br>";
+
+//test.php
+echo "<br>";
+echo $count -= 1;
+echo "<br>";
+
+//test.php
+echo "<br>";
+echo $count >= 8;
 echo "<br>";
 
 ?>
