@@ -59,6 +59,38 @@ echo "<br>";
 echo $count >= 8;
 echo "<br>";
 
+echo "<br>";
+echo $count <= 5 or $count >= 10;
+echo "<br>";
+
+echo "<br>";
+$info = 'Preface variables with a $ like this: $variable';
+echo $info;
+echo "<br>";
+
+echo "<br>";
+$info = 'I love my family';
+echo $info;
+echo "<br>";
+
+echo "<br>";
+echo "This week $count people have viewed your profile";
+echo "<br>";
+
+echo "<br>";
+echo $text = 'My spelling\'s still horrible.';
+echo "<br>";
+
+echo "<br>";
+echo $text = "She wrote upon it, \"Return to sender\".";
+echo "<br>";
+
+echo "<br>";
+$heading = "date\tname\tpayment";
+echo $heading;
+
+
+
 ?>
 
 </body>
