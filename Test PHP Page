@@ -88,10 +88,30 @@ echo "<br>";
 echo "<br>";
 $heading = "date\tname\tpayment";
 echo $heading;
+echo "<br>";
 
+echo "<br>";
+$auther = "Steve Ballmer";
+echo "Jack, John, James, Jake, Jared, Jacque, Jasmine, Joy, Janice, Jorden!
+- $auther.";
+echo "<br>";
 
+echo "<br>";
+$auther = "Bill Gates";
+echo $text = "Measuring pregramming progress by lines of code is like measuring aircraft building progress by weight.
+-$auther.";
+echo "<br>";
+
+echo "<br>";
+$auther ="Brian W. Kerninghan";
+echo <<<_END
+Debugging is twice as hard as writing the code in the first place.
+Therefore, If you write the code as cleverly as possible, you are,
+by definition,not smart enought to dubug it.
+- $auther.
+_END;
+echo "<br>";
 
 ?>
-
 </body>
 </html>
