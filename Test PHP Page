@@ -112,6 +112,72 @@ by definition,not smart enought to dubug it.
 _END;
 echo "<br>";
 
+echo "<br>";
+$author = "Scott Adams";
+echo $out = <<<_END
+Normal people believe that if it ain't broke, don't fix it.
+Engineers believe that if it ain't broke, it doesn't have enough
+features yet.
+- $author.
+_END;
+echo "<br>";
+
+echo "<br>";
+$number = 12345 * 67890;
+echo substr($number, 3, 1);
+echo "<br>";
+
+echo "<br>";
+$pi = "3.1415927";
+$radius = 5;
+echo $pi * ($radius * $radius);
+echo "<br>";
+
+echo "<br>";
+define("ROOT_LOCATION", "/usr/local/www/");
+echo $directory = ROOT_LOCATION;
+echo "<br>";
+
+echo "<br>";
+function longdate($timestamp)
+{
+return date("l F jS Y", $timestamp);
+}
+echo longdate(time());
+echo "<br>";
+
+echo "<br>";
+echo longdate(time() - 17 * 24 * 60 * 60);
+echo "<br>";
+
+echo "<br>";
+echo "a: [" . (20 > 9) . "]<br>";
+echo "b: [" . (5 == 6) . "]<br>";
+echo "c: [" . (1 == 0) . "]<br>";
+echo "d: [" . (1 == 1) . "]<br>";
+
+echo "a: [" . TRUE . "]<br>";
+echo "b: [" . FALSE . "]<br>";
+echo "<br>";
+
+echo "<br>";
+$myname = "Jacquelin";
+$myage = 25;
+
+echo "a: " . 73 . "<br>"; // Numeric literal
+echo "b: " . "Hello" . "<br>"; // String literal
+echo "c: " . FALSE . "<br>"; // Constant literal
+echo "d: " . $myname . "<br>"; // String variable
+echo "e: " . $myage . "<br>"; // Numeric variable
+echo "<br>";
+
+echo "<br>";
+$days_to_new_year = 366 - $day_number; // Expression
+
+
+
 ?>
+
+
 </body>
 </html>
