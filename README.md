@@ -1,5 +1,3 @@
 Projects-Samples
 ================
-I am Cloud Engineer
-I am getting my BS in Computer Infomation Systems. 
-My Degree Constration is Web Devlopment and Administration.
+I work in the Information Technology industry and a Technology Professional and am currently pursuing a Bachelor of Science in Computer Information Systems, with a concentration in Web Development and Administration. 
